@@ -76,7 +76,7 @@
         ],
         "Timeout": "25",
         "Code": {
-          "S3Bucket": "amplify-amplifylayerstest-prod-155447-deployment",
+          "S3Bucket": "amplify-amplifylayerstest-dev-144618-deployment",
           "S3Key": "amplify-builds/amplifylayerstest9354ddbe-4c6f2b58534131336b73-build.zip"
         }
       }

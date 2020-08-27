@@ -40,7 +40,8 @@
         "amplifylayerstest4fa1d316": {
           "deploymentBucketName": "amplify-amplifylayerstest-dev-144618-deployment",
           "s3Key": "amplify-builds/amplifylayerstest4fa1d316-build.zip"
-        }
+        },
+        "amplifylayerstest9354ddbe": {}
       }
     }
   },
