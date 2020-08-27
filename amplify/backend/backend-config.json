@@ -1,26 +1,23 @@
 {
-	"function": {
-		"amplifylayerstest4aa016dc": {
-			"runtimes": [
-				{
-					"value": "nodejs",
-					"name": "NodeJS",
-					"layerExecutablePath": "nodejs/node_modules",
-					"cloudTemplateValue": "nodejs12.x"
-				}
-			],
-			"layerVersionMap": {
-				"1": {
-					"permissions": [
-						{
-							"type": "private"
-						}
-					]
-				}
-			},
-			"providerPlugin": "awscloudformation",
-			"service": "LambdaLayer",
-			"build": true
-		}
-	}
+  "function": {
+    "amplifylayerstest4fa1d316": {
+      "providerPlugin": "awscloudformation",
+      "service": "LambdaLayer",
+      "build": true
+    },
+    "amplifylayerstest9354ddbe": {
+      "build": true,
+      "providerPlugin": "awscloudformation",
+      "service": "Lambda",
+      "dependsOn": [
+        {
+          "category": "function",
+          "resourceName": "amplifylayerstest4fa1d316",
+          "attributes": [
+            "Arn"
+          ]
+        }
+      ]
+    }
+  }
 }

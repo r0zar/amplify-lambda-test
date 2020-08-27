@@ -1,0 +1,9 @@
+{
+  "lambdaLayers": [
+    {
+      "type": "ProjectLayer",
+      "resourceName": "amplifylayerstest4fa1d316",
+      "version": 1
+    }
+  ]
+}

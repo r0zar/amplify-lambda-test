@@ -10,6 +10,112 @@
       "StackName": "amplify-amplifylayerstest-dev-144618",
       "StackId": "arn:aws:cloudformation:us-east-1:144504656881:stack/amplify-amplifylayerstest-dev-144618/d0917ca0-e7d4-11ea-b268-0a39c55408a9",
       "AmplifyAppId": "d1txf34b7tx02a"
+    },
+    "nonCFNdata": {
+      "function": {
+        "amplifylayerstest2f7a62ad": {
+          "runtimes": [
+            {
+              "value": "nodejs",
+              "name": "NodeJS",
+              "layerExecutablePath": "nodejs/node_modules",
+              "cloudTemplateValue": "nodejs12.x"
+            }
+          ],
+          "layerVersionMap": {
+            "1": {
+              "permissions": [
+                {
+                  "type": "private"
+                }
+              ],
+              "hash": "WA7ifF3fry3Zgyj1nlgwepgxhvMKbuDxllQdC2DrcK0="
+            }
+          }
+        },
+        "amplifylayerstest4fa1d316": {
+          "runtimes": [
+            {
+              "value": "nodejs",
+              "name": "NodeJS",
+              "layerExecutablePath": "nodejs/node_modules",
+              "cloudTemplateValue": "nodejs12.x"
+            }
+          ],
+          "layerVersionMap": {
+            "1": {
+              "permissions": [
+                {
+                  "type": "private"
+                }
+              ],
+              "hash": "JSJ0jKZsBF59XjZ/iCmsm22lJMoKEfuCoYK/+0QfrVE="
+            }
+          }
+        }
+      }
+    },
+    "categories": {
+      "function": {
+        "amplifylayerstest4fa1d316": {
+          "deploymentBucketName": "amplify-amplifylayerstest-dev-144618-deployment",
+          "s3Key": "amplify-builds/amplifylayerstest4fa1d316-build.zip"
+        }
+      }
+    }
+  },
+  "prod": {
+    "awscloudformation": {
+      "AuthRoleName": "amplify-amplifylayerstest-prod-155447-authRole",
+      "UnauthRoleArn": "arn:aws:iam::144504656881:role/amplify-amplifylayerstest-prod-155447-unauthRole",
+      "AuthRoleArn": "arn:aws:iam::144504656881:role/amplify-amplifylayerstest-prod-155447-authRole",
+      "Region": "us-east-1",
+      "DeploymentBucketName": "amplify-amplifylayerstest-prod-155447-deployment",
+      "UnauthRoleName": "amplify-amplifylayerstest-prod-155447-unauthRole",
+      "StackName": "amplify-amplifylayerstest-prod-155447",
+      "StackId": "arn:aws:cloudformation:us-east-1:144504656881:stack/amplify-amplifylayerstest-prod-155447/61bc2e60-e7de-11ea-b64c-0a90b7832da7",
+      "AmplifyAppId": "d1txf34b7tx02a"
+    },
+    "nonCFNdata": {
+      "function": {
+        "amplifylayerstest4fa1d316": {
+          "runtimes": [
+            {
+              "value": "nodejs",
+              "name": "NodeJS",
+              "layerExecutablePath": "nodejs/node_modules",
+              "cloudTemplateValue": "nodejs12.x"
+            }
+          ],
+          "layerVersionMap": {
+            "1": {
+              "permissions": [
+                {
+                  "type": "private"
+                }
+              ],
+              "hash": "WA7ifF3fry3Zgyj1nlgwepgxhvMKbuDxllQdC2DrcK0="
+            },
+            "2": {
+              "permissions": [
+                {
+                  "type": "private"
+                }
+              ],
+              "hash": "JSJ0jKZsBF59XjZ/iCmsm22lJMoKEfuCoYK/+0QfrVE="
+            }
+          }
+        }
+      }
+    },
+    "categories": {
+      "function": {
+        "amplifylayerstest4fa1d316": {
+          "deploymentBucketName": "amplify-amplifylayerstest-prod-155447-deployment",
+          "s3Key": "amplify-builds/amplifylayerstest4fa1d316-build.zip"
+        },
+        "amplifylayerstest9354ddbe": {}
+      }
     }
   }
 }
